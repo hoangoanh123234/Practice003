@@ -8,6 +8,7 @@ public class ArrayOfInteger {
 	 n=0;
  }
  //ham khoi tao co doi so
+ //
  public  ArrayOfInteger (int capacity) {
 	 a=new int[capacity];
 	 n=0;
