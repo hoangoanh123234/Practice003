@@ -44,7 +44,7 @@ public class ArrayOfInteger {
 		 a[index]=x;
  }
  
- //Xoa ki tu ban muon
+ //Xoa ki tu
  public void remove (int index) {
 	 if (index<0 || index>=n) 
 		 System.out.print("invalid index");
@@ -101,11 +101,13 @@ public class ArrayOfInteger {
 		// TODO Auto-generated method stub
 		//con new con, xai tat ca ca ham lop cha va lp con
 	ArrayOfInteger arr= new ArrayOfInteger (100);
+	//Them cac ki tu vao mang
 	arr.add(8);arr.add(1);arr.add(9);arr.add(2);arr.add(7);arr.add(6); arr.add(4);
 	arr.add(3); arr.add(10); arr.add(5);
 	arr.output();
 	System.out.println ("\n"+arr.get(2));
 	arr.set(3, 100); arr.output(); System.out.print ("\n");
+	//Xoa ki tu thu 3 khoi mang
 	arr.remove(3); arr.output();
 	System.out.println (arr.contains(4));
 	arr.add(6, 3); arr.output();
