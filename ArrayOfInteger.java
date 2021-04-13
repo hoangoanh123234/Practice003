@@ -43,6 +43,8 @@ public class ArrayOfInteger {
 	 else
 		 a[index]=x;
  }
+ 
+ //Xoa ki tu
  public void remove (int index) {
 	 if (index<0 || index>=n) 
 		 System.out.print("invalid index");
@@ -52,6 +54,7 @@ public class ArrayOfInteger {
 	 n--;
 	 }
  }
+ //Tim kiem so can tim
  public boolean contains (int x) {
 	 System.out.println("\nNhap so can tim: "+x);
 	 for (int i=0;i<a.length;i++)
