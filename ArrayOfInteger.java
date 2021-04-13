@@ -44,7 +44,7 @@ public class ArrayOfInteger {
 		 a[index]=x;
  }
  
- //Xoa ki tu
+ //Xoa ki tu ban muon
  public void remove (int index) {
 	 if (index<0 || index>=n) 
 		 System.out.print("invalid index");
