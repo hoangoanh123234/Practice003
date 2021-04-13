@@ -9,7 +9,7 @@ public class ArrayOfInteger {
  }
  //ham khoi tao co doi so
  //
- //nhan
+ //nhan nhan
  public  ArrayOfInteger (int capacity) {
 	 a=new int[capacity];
 	 n=0;
